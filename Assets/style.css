@@ -1,0 +1,570 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+
+}
+.navbar-nav{
+    margin-left: 25%;
+}
+
+.button_design{
+    border-radius: 25px;
+}
+.top_btn{
+   background-color:  #ba6fd9;
+   color: white !important;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../Images/view-big-ben-clock-tower-london-sunset-uk.jpg') !important;
+    background-size: cover !important;
+    background-blend-mode: darken !important;
+    
+}
+.bg-light{
+    --bs-bg-opacity: 0 !important;
+}
+.nav-link{
+    color: white !important;
+    margin: 0px 15px;
+}
+/* hero page */
+.hero_page{
+        /* position: relative; */
+        display: flex;
+        flex-direction: column;
+        padding: 18% 18%;
+    padding-bottom: 10%;
+        /* margin: 0%; */
+        /* right: 0; */
+        color: white;
+        text-align: center;
+        align-items: center;
+}
+h1{
+    font-size: 50px
+}
+.promotions{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.wrapper {
+    border:1px solid #000;
+    display:inline-block;
+    width: 33%;
+    background-color: white;
+    margin-top: 4%;
+
+}
+
+input,
+button {
+    background-color:transparent;
+    border:0;
+}
+.form-control{
+    border: none !important;
+    border-radius:25px !important;
+}
+.btn{
+    border: none !important;
+}
+/* #navbarSupportedContent{
+    text-align: center;
+} */
+.emotes{
+        /* margin: 83px 0px; */
+        margin-top: 10%;
+        /* font-size: 59px; */
+        /* color: white; */
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    
+}
+.hero_page span{
+    text-decoration: underline;
+    text-decoration-color:#ba6fd9 ;
+}
+.icon_theme{
+    /* border: 1px solid #fefefe; */
+    /* padding: 10px; */
+    color: white;
+    font-size: 3rem;
+   
+}
+.navbar-nav{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.social .fa-brands{
+  color: black;
+}
+.icons{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 14%;
+    height: 97px;
+    backdrop-filter: blur(71px);
+}
+
+
+/* destinations */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+   
+    text-align: center;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #5755FE;
+    color: white;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius:25px;
+  }
+  .hero_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    flex-direction: column;
+
+
+  }
+  .set_width{
+    width: 76%;
+
+  }
+.Know_more{
+    text-decoration: none;
+    color: white;
+  }
+  .hero_sec .col-md-4{
+    margin-bottom: 4rem;
+
+  }
+  .img_text{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    /* left: 19%; */
+    top: 90%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(41, 41, 41, 0.8); */
+    /* padding: 0.5rem; */
+    text-align:left;
+    font-size: 15px;
+
+  }
+  .img_text1{
+   
+    left: 19%;
+    
+  }
+  .img_text2{
+    left:22%;
+  }
+  .img_text3{
+    left: 17%;
+  }
+  .img_text4{
+    left: 17%;
+  }
+  .img_text5{
+    left: 17%;
+  }
+  .img_text6{
+   
+    left: 34%;
+   
+  }
+  .destination_head{
+    text-align:center;
+    margin-bottom: 3rem;
+  }
+  .destination_head span{
+    text-decoration: underline;
+    text-decoration-color: #13b796;
+  }
+
+
+
+  
+
+  .detail{
+    width: 88%;
+
+
+  }
+  .about_beaches{
+    margin-top: 2rem;
+    display: flex !important;
+
+  }
+  .payment{
+    font-size: 1.5rem;
+  }
+  .prev_price{
+    text-decoration: line-through;
+    color: lightgray;
+  }
+  .person{
+    font-size: 1.15rem;
+    /* color: gray; */
+  }
+  .book_btn{
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+   
+
+  }
+  .travell{
+    display: flex;
+    justify-content: center;
+  }
+  .travell .row{
+    width: 100%;
+     display: flex; 
+    
+    align-items: center;
+    justify-content: center;
+  }
+ .book_btn .top_btn{
+    background-color: #13b796;
+ }
+ .usa{
+    width: 100%;
+    height: 19rem;
+
+    /* display: flex; */
+    justify-content: center;
+ }
+ .about_us{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem;
+
+ }
+ .about_us .row{
+    width: 90%;
+ }
+ .its_disp{
+    display: flex;
+ }
+ .its_disp .fa-solid{
+    font-size:  3.5rem !important;
+    color: lightgray;
+ }
+.space_btw{
+    margin-left: 1rem;
+}
+.its_disp p{
+    width: 17rem;
+
+}
+.its_disp a{
+    
+    text-decoration: none;
+}
+.col-md-8{
+  margin: 4rem 0rem !important;
+}
+.slick-prev{
+  background-color: black !important;
+}
+.slick-next{
+  background-color: black !important;
+}
+
+.foot_img{
+  background: url('../Images/pexels-robertovivancos-2190283.jpg');
+  background-size: cover;
+
+
+}
+.head_foot{
+  /* padding-left: 27rem; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 4rem; */
+  width: 95%;
+  padding-top: 3rem;
+}
+.plane_io{
+  position: relative;
+  top: -2rem;
+  left: 10.25rem;
+
+}
+.input_email_box{
+  border: 1px solid black;
+    padding: 6px;
+    border-radius: 0.5rem;
+}
+.foot_text{
+  width: 15rem;
+  margin: 1rem 0rem;
+
+}
+.social{
+  width: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
+footer .col-md-8{
+  display: flex;
+}
+.list_1, .lis_2{
+  list-style: none;
+}
+.list_last{
+  /* border: 1px solid black; */
+  background-color: white;
+  width: 80%;
+  box-shadow: 0 1px 6px rgb(0 0 0 / 51%), 0 1px 4px rgb(0 0 0 / 51%);
+  margin: 4rem 0rem;
+
+}
+
+.logo_text{
+  padding-top: 3rem;
+  padding-left: 2rem !important;
+
+}
+ul a{
+  text-decoration: none;
+color: black;
+}
+/* ul .color_set{
+  font-size: 2rem;
+} */
+.about_beaches .col-md-5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .its_disp p {
+    width: 8rem;
+}
+}
+@media (max-width: 767.98px) { 
+  .travell{
+    display: none;
+  }
+ }
+@media (max-width: 376px){
+  .its_disp p {
+    width: 14rem;
+}
+
+ }
+ @media (max-width: 649px){
+  .emotes .fa-solid{
+    font-size: 2rem;
+  }
+  .emotes{
+    width: 100%;
+  }
+  .emotes p{
+    font-size: 0.5rem;
+  }
+}
+@media (max-width:1000px){
+  .icons{
+    backdrop-filter: none;
+  }
+}
+@media (max-width:329px){
+  .its_disp p {
+    width: 11rem;
+}
+}
+
+.promotion .row{
+  width: 80%;
+}
+.promo_img{
+  width: 100%;
+}
+.promotion{
+  display: flex;
+  width: 100%;
+  margin: 5rem 0;
+  justify-content: center;
+}
+.promotion1{
+  display: flex;
+  justify-content: center;
+}
+.head_promo{
+  text-align: center;
+  margin: 2rem 0rem;
+
+}
+.promotion span{
+text-decoration: underline;
+text-decoration-color: #13b796;
+}
+.loc{
+  display: flex;
+}
+.special{
+  display: flex;
+  justify-content: space-between;
+}
+.special p{
+  margin:0;
+}
+.card{
+  margin: 0 2rem;
+
+}
+.country{
+  margin-left: 0.5rem;
+}
+.card .fa-solid{
+  color: lightgray;
+
+}
+.price{
+  font-size: 1.5rem;
+
+}
+.before{
+  font-size: 1.25rem;
+  text-decoration: line-through;
+  color: lightgray;
+}
+.btn-primary{
+  border-radius: 25px !important;
+}
+.btn1{
+  background-color: #ffd204 !important;
+}
+.btn2{
+  background-color: #f4626d !important;
+}
+.btn3{
+  background-color:#b76ed7 !important;
+}
+.card_slot{
+  display: flex;
+}
+@media (max-width:1081px){
+  .card_slot{
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .card{
+    margin: 1.5rem 0rem;
+  }
+}
+@media (max-width:1081px){
+  .emailme{
+    display: none;
+  }
+  .trvel_more{
+    text-align:center;
+    width:100%;
+  }
+}
+@media (min-width:768px) and (max-width: 1400px){
+  .img_text h3{
+    margin-bottom:0;
+    font-size: 100%;
+  }
+  .img_text p{
+    font-size: 100%;
+  }
+  .img_text1{
+    left: 36%;
+
+  }
+  .img_text2 {
+    left: 36%;
+}
+.img_text3 {
+  left: 35%;
+}
+.img_text4 {
+  left: 36%;
+}
+.img_text5 {
+  left: 36%;
+}
+.img_text6 {
+  left: 44%;
+}
+}
+@media  (max-width: 641px){
+  .wrapper {
+    width: 100%;
+}
+.promotions {
+  font-size: 100%;
+}
+  .d-flex{
+    width: 100%;
+  }
+  .form-control{
+    width: 100%;
+  }
+}
+@media  (min-width:1002px) and (max-width: 1272px){
+  .wrapper{
+    width:43%;
+  }
+}
+@media  (min-width: 641.5px) and (max-width:1001.5px){
+  .wrapper{
+    width:64%;
+  }
+  
+}

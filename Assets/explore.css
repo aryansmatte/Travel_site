@@ -1,0 +1,509 @@
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    width:5rem !important;
+    height: 5rem !important;
+}
+body {
+	font-family:Inter;
+  }
+  
+  .card {
+	width: 300px;
+	min-width: 300px;
+	height:auto;
+	background:#fff;
+	border-radius:30px;
+	position:relative;
+	z-index:10;
+	margin:25px;
+	min-height:356px;
+	cursor:pointer;
+	transition: all .25s ease;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0, .08);
+  }
+  
+  .card:hover {
+	transform:translate(0, -10px);
+	box-shadow: 0px 17px 35px 0px rgba(0,0,0,.07);
+  }
+  
+  .card h4 {
+	position:absolute;
+	left: 0;
+	top: 0;
+	padding: 15px;
+  }
+  
+  .card i {
+	position:absolute;
+	right: 0;
+	top: 0;
+	padding: 15px;
+	font-size:1.4rem;
+	line-height:3.2rem;
+  }
+  
+  .card .card-text {
+	
+    width: 100%;
+
+  }
+  
+  p {
+	font-size: .8rem;
+	opacity: .6;
+	margin-top: 10px;
+  }
+  
+  .card .card-img {
+	transform: translate(90px,-10px);
+	margin: 0 30px;
+	display:flex;
+	align-items: center;
+	justify-content:center;
+	transition: all .35s ease-out;
+  }
+  
+  .card img {
+	height:180px;
+  }
+  
+  .card img.blur {
+	position:absulute;
+	filter:blur(15px);
+	z-index:-1;
+	opacity:.40;
+	transform: translate(-160px,30px);
+	transition: all .35s ease-out;
+  }
+  
+  .card:hover .card-img {
+	transform:translate(70px,-15px);
+  }
+  
+  .card:hover .card-img img.blur {
+	transform:translate(-100px,35px) scale(.85);
+	opacity:.25;
+	filter:blur(20px);
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    overflow: auto;
+    /* padding-top: 100px; */
+   
+    padding-right: 50px;
+    scroll-behavior: smooth;
+    margin-bottom: 4rem;
+  }
+  
+  .card-content::-webkit-scrollbar {
+	 height:0px;
+  }
+  
+  .card-content:after {
+	content:'';
+	display:block;
+	min-width:20px;
+	height:100px;
+	position:relative;
+  }
+  
+  .btn{
+	min-width:60px;
+	margin:auto 30px;
+	height:60px;
+	border-radius:20px;
+	/* background:#fff; */
+	border:0px;
+	outline:none;
+	cursor:pointer;
+	z-index:9999;
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,.08);
+	transition: all .25s ease;
+  }
+  
+  .btn:hover{
+	box-shadow: 0px 17px 35px 0px rgba(0,0,0,.07);
+  }
+  
+  .btn i {
+	font-size:1.2rem;
+  }
+  
+  .slider {
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	/* background:rgb(242,243,248); */
+	width:100%;
+	height:90vh;
+    margin: -44vh 0;
+
+	/* overflow:hidden; */
+  }
+  
+  .slider:after {
+	content:'';
+	left:98px;
+	height:90vh;
+	position:absolute;
+	width:150px;
+	z-index:100;
+	/* background: linear-gradient(90deg, rgb(242,243,248) 0%,rgba(242,243,248,0)  100%); */
+	
+  }
+  
+  .slider:before {
+	content:'';
+	right:98px;
+	height:90vh;
+	position:absolute;
+	width:150px;
+	z-index:100;
+	/* background: linear-gradient(90deg, rgba(242,243,248,0) 0%,rgba(242,243,248,1)  100%); */
+
+  }
+  .slider .fa-solid{
+    font-size: 3rem;
+  }
+  .img{
+    background-image: url('../Images/Explore/Frame\ 5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .head h2{
+    position: absolute;
+    top: 47rem;
+    left: 10rem;
+
+    z-index: 1;
+    color: white;
+    /* box-shadow: 2px 1px; */
+    text-shadow: 2px 2px #110101;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+  }
+  .card-text{
+    position: relative;
+    top: 17rem;
+    
+    left: 0vh;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width:100%;
+    text-align: center;
+  }
+  .card-text:hover{
+    text-decoration: underline;
+    text-decoration-color:lightgray ;
+  }
+  .img1{
+    background-image: url('../Images/Explore/bali-pagoda-indonesia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img2{
+    background-image: url('../Images/Explore/maldives-island.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  }
+  .img3{
+    background-image: url('../Images/Explore/vertical-view-skyscrapers-palm-trees-dubai-uae.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img4{
+    background-image: url('../Images/Explore/eiffel-tower-with-bridge-river-seine-paris-france.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .img5{
+    background-image: url('../Images/Explore/saint-basil-s-cathedral-red-square-moscow-russia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .card-text1{
+    width: 4rem;
+    position: relative;
+    top: 17rem;
+    
+    left: 0vh;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    text-align: center;
+
+  }
+  .card-text1:hover{
+    text-decoration: underline;
+    text-decoration-color:lightgray ;
+  }
+ 
+  .card-text2{
+    width: 8rem;
+    color: white;
+    position: relative;
+    top: 17rem;
+    
+    left: 0vh;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    text-align: center;
+
+  }
+  .card-text2:hover{
+    text-decoration: underline;
+    text-decoration-color:lightgray ;
+  }
+
+  .card-text3{
+    width: 5rem;
+
+    position: relative;
+    top: 17rem;
+    
+    left: 0vh;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    text-align: center;
+  }
+  .card-text3:hover{
+    text-decoration: underline;
+    text-decoration-color:lightgray ;
+  }
+
+  .card-text4{
+    width: 6rem;
+    position: relative;
+    top: 17rem;
+    
+    left: 0vh;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    text-align: center;
+
+  }
+  .card-text4:hover{
+    text-decoration: underline;
+    text-decoration-color:lightgray ;
+  }
+
+  .card-text5{
+    width: 6rem;
+    position: relative;
+    top: 17rem;
+    
+    left: 0vh;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    text-align: center;
+
+  }
+  .card-text5:hover{
+    text-decoration: underline;
+    text-decoration-color:lightgray ;
+  }
+
+  /* Travel collection */
+  .more{
+    margin: 11rem 10rem;
+
+  }
+  .arrange{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 23%;
+  justify-content: space-between;
+  }
+  .more .fa-solid{
+    color:black;
+  }
+
+  
+.more_dest{
+  padding: 9rem 0;
+  margin: 0 2rem;
+
+}
+.more_dest .head_dest {
+    margin: 60px 127px 0;
+    padding: 0;
+    font-weight: 300;
+}
+.more_dest h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+
+/* Zoom In #1 */
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+
+/* Zoom Out #1 */
+.hover03 figure img {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover03 figure:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+.container{
+    width:100% !important;
+}
+.dest_cards{
+  display: flex;
+  /* width: 100%; */
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.dest_cards .card{
+  margin: 1rem 2rem;
+}
+.new_img1{
+  background-image: url('../Images/Explore/crd/beautiful-vertical-shot-taj-mahal-building-agra-india-cloudy-sky.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new_img2{
+  background-image: url('../Images/Explore/crd/tourist-boat-ban-rak-thai-village-mae-hong-son-province.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new_img3{
+  background-image: url('../Images/Explore/crd/beautiful-architecture-building-lotte-tower.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new_img4{
+  background-image: url('../Images/Explore/crd/beautiful-landscape-mountain-fuji-with-chureito-pagoda-around-maple-leaf-tree-autumn-season.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new_img5{
+  background-image: url('../Images/Explore/crd/view-jami-ul-alfar-mosque-colombo-sri-lanka-blue-sky-backgound.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new_img6{
+  background-image: url('../Images/Explore/crd/traditional-dutch-windmills-with-green-grass-foreground-netherlands.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new_img7{
+  background-image: url('../Images/Explore/crd/vertical-shot-niteroi-contemporary-art-museum-brazil.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new_img8{
+  background-image: url('../Images/Explore/bali-pagoda-indonesia.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.new_img9{
+  background-image: url('../Images/Explore/saint-basil-s-cathedral-red-square-moscow-russia.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text_design{
+  color: white;
+  position: relative;
+  top: 17rem;
+  background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    
+    text-align: center;
+
+}

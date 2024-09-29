@@ -1,0 +1,133 @@
+.background1{
+    background: url('../Images/1971537.jpg');
+    background-size:cover;
+}
+.background2{
+    background:rgba(0, 0, 0, 0.7) url('../Images/3d-icon-traveling-vacation.jpg');
+    background-size: cover;
+    background-blend-mode:darken ;
+
+}
+.aboutus{
+    padding: 20%;
+    padding-bottom: 11%;
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.aboutus span{
+    text-decoration: underline;
+    text-decoration-color:#ba6fd9 ;
+}
+.team_detail{
+    margin: 4rem 0rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.frame_img{
+    width: 216px;
+}
+.img_concept{
+    width: 100%;
+}
+.ceo{
+    width: 120px;
+    position: absolute;
+    border-radius: 100%;
+    top: 104px;
+    left: 87px;
+    border: 2px solid lightgray;
+    box-shadow: 0 1px 6px rgb(157 155 155), 0 1px 4px rgb(174 174 174);
+}
+.card-body {
+   
+    padding: 4rem 1rem 1rem 1rem !important;
+}
+.about_team{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0rem;
+
+}
+.card-title {
+   text-align: center;
+}
+.card{
+    border:none;
+    box-shadow: 0 0px 19px rgb(192 192 192), 0 -4px 25px rgb(192 192 192);
+    border-radius: 15px;
+}
+.cover_img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.card1{
+box-shadow: 0 0px 19px rgb(255 224 0), 0 -4px 25px rgb(255 224 5);
+}
+.card-body{
+    text-align: center;
+}
+.counter{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 3rem; */
+    padding-top: 3rem;
+}
+.counter .fa-regular{
+    font-size: 5rem;
+
+
+}
+#counter1,
+#counter2,
+#counter3{
+    font-size: 2rem;
+
+}
+.counter p{
+    font-size: 1.5rem;
+
+}
+.count_live{
+    text-align: center;
+
+}
+/* .know_us{
+    margin: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.context{
+    width: 100%;
+    
+    border-radius: 10px;
+
+}
+.bg_color{
+    margin: 5rem 0;
+
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0px 19px rgb(0 0 0 / 56%), 0 -4px 25px rgb(0 0 0 / 65%);
+}
+.direct{
+    flex-direction: row-reverse;
+
+} */

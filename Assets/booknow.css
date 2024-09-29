@@ -1,0 +1,166 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("../Images/jumbo-jet-flying-sky.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 0 35px 20px 35px;
+  
+ 
+  text-align: center;
+}
+#quantity{
+    width: 100%;
+    background-color: white;
+    display: block;
+    /* width: 67%; */
+    padding: .375rem 2.25rem .375rem .75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    /* background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e); */
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.tickets{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pickup,
+.drop, 
+.passenger{
+    width: 300px;
+}
+h3{
+    text-align: left;
+    font-size: 1rem !important;
+    
+    font-weight: lighter !important;
+
+}
+.dates{
+    display: flex;
+    margin-top: 2rem;
+}
+form{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+   
+}
+#birthday{
+    width: 60%;
+
+    background-color: white;
+    display: block;
+    /* width: 67%; */
+    padding: .375rem 2.25rem .375rem .75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right .75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.depat,
+.return{
+    width:500px
+}
+
+.top, 
+.bottom{
+    display: flex;
+    padding: 1.5rem 0;
+}
+.top{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+}
+.arr{
+    width: 300px;
+}
+.bottom{
+    width: 100%;
+    justify-content: space-evenly;
+}
+#birthday{
+    width: 100%;
+}
+.submit{
+    padding: 0.25rem;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    background-color: #3030d7;
+}
+h2{
+    text-decoration: underline;
+    text-decoration-color: #13b796;
+}
+
+
+
+
